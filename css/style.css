@@ -1,0 +1,317 @@
+body{
+    font-family: arial;
+    padding:0;
+    margin:0;
+    background-color:#000;
+    color:#fff;
+}
+
+.big-wrapper{
+    background-image:url("../img/banner.jpg");
+    background-size:cover;
+    background-position: center;
+}
+
+/* Navigation */
+
+#my-navigation{
+    background:none;
+    border:0;
+}
+
+#my-navigation .navbar-brand{
+   font-size:20px;
+   color:#fff;
+   font-family:arial;
+   margin-left:150px;
+   margin-top:10px;
+}
+
+#my-navigation .navbar-right{
+    margin-right:120px;
+    font-weight:200;
+    font-size:12px;
+    margin-top:30px;
+}
+
+#my-navigation .navbar-right a{
+    color:#fff;
+    text-decoration: none;
+}
+
+#my-navigation .navbar-right a:hover{
+    color: #000;
+}
+
+#my-navigation .navbar-right li{
+    list-style:none;
+    margin-right:30px;
+}
+
+ .my-button{
+    background-color: #2b8fc4;
+    border:0;
+    border-radius:2px;
+    height:35px;
+    width:100px;
+    margin-top:-8px;
+    color:#fff;
+    margin-bottom:20px;
+}
+
+.my-button:hover{
+    background-color:grey;
+}
+
+/* wrapper-text */
+
+.wrapper-text{
+    margin-top:100px;
+    color:#fff;
+}
+
+ h3{
+    opacity: 0.9;
+}
+
+ p{
+    opacity:0.6;
+    line-height:25px;
+    color:#fff;
+}
+
+.wrapper-text button{
+    margin-top:30px;
+    margin-bottom:100px;
+
+}
+
+/* section */
+
+section{
+    padding:30px 0;
+    width:80%;
+    margin:auto;
+   
+}
+
+section .one{
+    width:100%;
+}
+
+section .one h3{
+    opacity:0.8;
+    font-size:18px;
+}
+
+section .one .fa{
+   font-size:30px;
+   padding:20px 0;
+}
+
+section .one button{
+    margin: 30px 0;
+}
+
+/* Main */
+
+main{
+    padding:30px 0;
+    width:80%;
+    margin:auto;  
+}
+
+main h3{
+    opacity: 0.7;
+}
+
+main .part-1 img{
+    width:100%;
+}
+
+main .part-1 button{
+    margin:20px 0;
+}
+
+main li{
+    list-style:none;
+    opacity:0.7;
+    margin-bottom:10px;
+    font-size: 12px;
+}
+
+main .part-2{
+    width:100%;
+}
+
+main .part-2 img{
+    float:left;
+    padding:10px;
+}
+
+/* media-quiery */
+
+@media only screen and (max-width:1200px){
+    .big-wrapper{
+       width:100%;
+       background-size:cover;
+       background-position:center;
+}
+
+#my-navigation{
+    width:100%;
+}
+
+#my-navigation .navbar-brand{
+    font-size:12px;
+    margin-left:10px;
+    margin-top:5px;
+ }
+
+ 
+#my-navigation .navbar-right{
+    margin-right:0px;
+    font-weight:100;
+    font-size:12px;
+    margin-top:0px;
+}
+
+#my-navigation .navbar-right a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 8px;
+}
+
+#my-navigation .navbar-right a:hover{
+    color: #000;
+}
+
+#my-navigation .navbar-right li{
+    list-style:none;
+    margin-right:0px;
+}
+
+#my-navigation .navbar-right button{
+    margin-left:-90px;
+}
+
+ .my-button{
+    border-radius:2px;
+    height:15px;
+    width:55px;
+    color:#fff;
+    margin-bottom:10px;
+    font-size:8px;
+}
+
+#my-navigation button{
+    margin-top:50px;
+ 
+}
+
+.my-button:hover{
+    background-color:grey;
+}
+
+/* wrapper-text */
+
+.wrapper-text{
+    margin-top:50px;
+    color:#fff;
+    width:100%;
+}
+
+ h3{
+    opacity: 0.9;
+    font-size:10px
+}
+
+ p{
+    line-height:10px;
+    font-size:3px;
+}
+
+.wrapper-text button{
+    margin-top:10px;
+    margin-bottom:30px;
+
+}
+
+/* section */
+
+section{
+    padding: 0;
+    width:60%;
+    margin:auto;
+   
+}
+
+section .one{
+    width:100%;
+}
+
+section .one h3{
+    opacity:0.8;
+    font-size:12px;
+}
+
+section .one .fa{
+   font-size:15px;
+   padding:20px 0;
+}
+
+section .one button{
+    margin:15px 0;
+}
+
+main{
+    padding:0px 0;
+    width:60%;
+    margin:auto;  
+}
+
+main h3{
+    opacity: 0.7;
+    font-size:8px;
+}
+
+main .part-1 img{
+    width:100%;
+}
+
+main  .size{
+    font-size:5px;
+}
+
+
+main .part-1 button{
+    margin:0;
+}
+
+main h6{
+    font-size: 8px;
+}
+
+
+main li{
+    list-style:none;
+    opacity:0.7;
+    margin-bottom:10px;
+    font-size:8px;
+}
+
+main .part-2{
+    width:100%;
+
+}
+
+main .part-2 img{
+    float:left;
+    padding:1px;
+    width:30%;
+}
+
+
+
+}
+
